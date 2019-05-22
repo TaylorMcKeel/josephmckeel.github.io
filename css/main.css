@@ -1,0 +1,608 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+body{
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: #DFD7D5;
+  background-size: cover;
+  margin: auto;
+  width: 100%;
+}
+
+.mainPic{
+  height: 100px;
+  width: 300px;
+}
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.toolBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bio{
+  padding-right:120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.photo{
+  padding-right:120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.audio{
+  padding-right:120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.video{
+  padding-right:120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.services{
+  padding-right:120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.contact{
+  padding-right:120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+.bar{
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  font-size: 72px;
+  font-weight: 500;
+  text-align: center;
+  padding: 40px;
+
+}
+
+.headerMain{
+  border-bottom: 2px solid black;
+}
+
+.homePic{
+  height:600px;
+  width:600px;
+
+}
+
+.homeMain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pic{
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.tour{
+  font-size: 32px;
+  padding: 60px;
+}
+
+.tourHeader{
+  font-size: 42px;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 30px;
+}
+
+.whatsNew{
+  font-size: 32px;
+  padding: 60px;
+}
+
+.newHeader{
+  font-size: 42px;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 30px;
+}
+
+.manImage{
+  height: 150px;
+  width: 150px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.socialPic{
+  height: 30px;
+  width:30px;
+}
+
+.contactFoot{
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 200px;
+  position: relative;
+  padding: 15px;
+}
+
+.logo{
+  position: relative;
+  left: 15px;
+}
+
+.bioQuote{
+  font-size: 34px;
+  text-align: center;
+  padding: 10px;
+}
+
+.quoteAuthor{
+  font-size: 34px;
+  text-align: center;
+  padding: 10px;
+}
+
+.bio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bioInfo{
+  width: 70%;
+  font-size: 24px;
+  padding:50px;
+}
+
+.downloads{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+}
+
+button{
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.downloadButton{
+  text-decoration: none;
+  color: white;
+}
+
+a{
+  color: black;
+}
+
+.photoDescription{
+  font-size: 34px;
+  text-align: center;
+  padding: 100px;
+}
+
+.audioDescription{
+  font-size: 34px;
+  text-align: center;
+  padding: 100px;
+}
+
+.videoDescription{
+  font-size: 34px;
+  text-align: center;
+  padding: 100px;
+}
+
+.servicesDescription{
+  font-size: 34px;
+  text-align: center;
+  padding: 100px;
+}
+
+.contactDescription{
+  font-size: 34px;
+  text-align: center;
+  padding: 100px;
+}
+
+.servicesMain{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.service2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  margin-top: 50px;
+}
+
+.service3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.s1Desc{
+  width: 70%;
+  font-size: 24px;
+  padding:50px;
+  border: 2px dashed black;
+  margin: 5px;
+}
+
+.s2Desc{
+  width: 70%;
+  font-size: 24px;
+  padding:50px;
+  border: 2px dashed black;
+  margin: 5px;
+}
+
+.s3Desc{
+  width: 70%;
+  font-size: 24px;
+  padding:50px;
+  border: 2px dashed black;
+  margin: 5px;
+}
+
+.s1Title{
+  font-size: 24px;
+  padding:50px;
+  font-weight: 700;
+  text-decoration: underline;
+  border: 2px solid black;
+  width: 20%;
+  text-align: center;
+}
+
+.s2Title{
+  font-size: 24px;
+  padding:50px;
+  font-weight: 700;
+  text-decoration: underline;
+  border: 2px solid black;
+  width: 20%;
+  text-align: center;
+}
+
+.s3Title{
+  font-size: 24px;
+  padding:50px;
+  font-weight: 700;
+  text-decoration: underline;
+  border: 2px solid black;
+  width: 20%;
+  text-align: center;
+}
+
+.contactMain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.manager{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.robert{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  right: 35px;
+}
+
+.manEmail{
+  font-size: 24px;
+  padding:50px;
+}
+
+.manNumber{
+  font-size: 24px;
+  padding:50px;
+}
+
+.robNumber{
+  font-size: 24px;
+  padding:50px;
+  position: relative;
+  left: 60px;
+}
+
+
+.robPic{
+  height: 150px;
+  width: 150px;
+  background-color: black;
+}
+
+.audioPlayer{
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.youtubePlayer{
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-bottom: 75px;
+  width: 100%;
+
+}
+
+
+#firstName, #lastName, select, #message, #email, #checkbox{
+  font-size: 20px;
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+input, textarea, select{
+  padding: 5px;
+  font-size: 15px;
+  border: solid 1px black;
+}
+
+button{
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+label{
+  width: 50%;
+  margin-right: 20px;
+}
+
+
+.formGroup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.selection{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.contactNow{
+  font-size: 36px;
+  font-weight: 600;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+/* Extra Large devices (large desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  /* styles go here */
+}
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+  /* styles go here */
+}
+
+/*
+  Small devices (landscape phone, 576px and down)
+*/
+@media only screen and (max-width: 576px) {
+  /* styles go here */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.photoGallery {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
